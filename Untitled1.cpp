@@ -10,5 +10,15 @@ class kendaraan{
 };
 
 int main(){
+	kendaraan Honda, Yamaha, Suzuki;
+	
+	Honda.kualitas = "irit dan murah ";
+	Yamaha.kualitas = " irit dan bertenaga ";
+	Suzuki.kualitas = " murah dan higt performa ";
+	
+	cout << (Honda.kualitas);
+	Honda.harga(" standar ");
+	
+	Yamaha.harga(" normal ");
 }
 
