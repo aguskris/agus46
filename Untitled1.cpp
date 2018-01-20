@@ -22,3 +22,7 @@ int main(){
 	Yamaha.harga(" normal ");
 }
 
+void kendaraan::harga(string price){
+	cout<<" Harga "<<price<<" sesuai keinginan anda ";
+}
+
